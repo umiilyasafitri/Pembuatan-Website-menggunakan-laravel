@@ -1,0 +1,103 @@
+.custom-title {
+    text-align: center;
+    color: #ff6347;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(30, 27, 200, 0.5);
+    margin-bottom: 20px;
+}
+.custom-navbar {
+    background-color: #ff6347; /* Warna latar belakang */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.custom-navbar .navbar-brand {
+    color: #0c1098; /* Warna teks */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #972020; /* Warna teks tautan */
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #ffd700; /* Warna saat hover */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    filter: invert(1); /* Mengubah warna ikon toggler */
+}
+.section-title {
+    color: #2b97c2; 
+    text-align: center;
+    font-size: 2.5em; /* Ukuran font */
+    margin-top: 20px; /* Jarak dari atas */
+}
+body {
+    background-color: #ADD8E6; /* Warna biru muda */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+.about-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-description {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.centered-text {
+    text-align: center;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+    margin: 20px 0; /* Adds spacing above and below the text */
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+.centered-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.img-thumbnail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-name {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.product-price {
+    text-align: center;
+    color: gray;
+}
+
